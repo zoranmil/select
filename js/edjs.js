@@ -48,7 +48,7 @@
             }
         }
     };
-    JaJS.prototype = {
+    EdJS.prototype = {
         ready: function(fn) {
             if (document.attachEvent && document.readyState != 'loading') {
                 document.attachEvent('onreadystatechange', function() { fn() });
