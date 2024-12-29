@@ -18,6 +18,7 @@ function Selects(options) {
         , onSelect: null
     , };
     this.config = Object.assign({}, this.defaultOptions, options || {});
+		this.config.option = typeof this.config.option  === 'string' ?  document.querySelector(this.config.option ) : this.config.option ;
     this.isDropdownOpen = false;
     this.currentOptionIndex = 0;
     this.lastTypedChar = '';
