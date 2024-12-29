@@ -8,7 +8,7 @@ i use sample javascript dom framework [edjs](https://github.com/ed3/edjs)
 
 $('#div').Selects({placeholder: 'Select an option'}) 
 
-or  new 	Selects({option:'tdiv' });
+or  new 	Selects({option:'div' });
 ```
 ## option 
 ```native
