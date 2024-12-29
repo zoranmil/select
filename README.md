@@ -11,6 +11,7 @@ or new Selects({option:document.querySelector('#select') });
 ```
 ## option 
 ```native
+{
  option:'#select',
  issearch: true or false
  placeholder:'Select',
@@ -19,4 +20,5 @@ or new Selects({option:document.querySelector('#select') });
 ajaxUrl:'some.php',
 data:{q:"selected","op":"find"}} /// request will be silected=word in select&op=find
 onSelect:function(value){}
+}
 ```
