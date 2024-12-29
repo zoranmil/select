@@ -1,8 +1,8 @@
 (function() {
     var $ = window.$ = function(s) {
-        return new JaJS(s);
+        return new EdJS(s);
     };
-    JaJS = function(s) {
+    EdJS = function(s) {
         var i, n, t;
         if (typeof s === 'string') {
             if ((/^#[\w-]+$/).test(s)) {

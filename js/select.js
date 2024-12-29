@@ -409,4 +409,4 @@ Selects.prototype.focusCurrentOption = function() {
             new Selects(config);
         });
     }
-})(JaJS);
+})(EdJS);
