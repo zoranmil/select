@@ -18,4 +18,5 @@ or  new 	Selects({option:document.querySelector('#div') });
  odabrano:'Selected',
 ajaxUrl:'some.php',
 data:{q:"selected","op":"find"}} /// request will be silected=word in select&op=find
+onSelect:function(value){}
 ```
