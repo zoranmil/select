@@ -6,7 +6,7 @@ sample select  is a vanila javascript replacement for select boxes. It supports 
 i use sample javascript dom framework [edjs](https://github.com/ed3/edjs)
 ```native
 
-$('#div').Selects({	,placeholder: 'Select an option'}) 
+$('#div').Selects({placeholder: 'Select an option'}) 
 
 or  new 	Selects({option:'tdiv' });
 ```
