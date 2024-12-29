@@ -12,6 +12,7 @@ or  new 	Selects({option:document.querySelector('#div') });
 ```
 ## option 
 ```native
+ option:'#select',
  issearch: true or false
  placeholder:'Select',
  searchplaceholder:'Search',
