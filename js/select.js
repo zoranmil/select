@@ -1,6 +1,6 @@
 function Selects(options) {
     this.defaultOptions = {
-        button: null
+          button: null
         , dropdown: null
         , search: null
         , option: null
@@ -16,7 +16,7 @@ function Selects(options) {
         , ismultiselect: false
         , find: null
         , onSelect: null
-    , };
+        , };
     this.config = Object.assign({}, this.defaultOptions, options || {});
 		this.config.option = typeof this.config.option  === 'string' ?  document.querySelector(this.config.option ) : this.config.option ;
     this.isDropdownOpen = false;
