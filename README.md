@@ -1,6 +1,5 @@
 # sample select 
-
-sample select  is a vanila javascript replacement for select boxes. It supports searching, remote data sets.
+>sample select  is a vanila javascript replacement for select boxes. It supports searching, remote data sets.
 ## Usage
 
 i use sample javascript dom framework [edjs](https://github.com/ed3/edjs)
