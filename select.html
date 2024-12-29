@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>CSS</title>
+
+<script src="js/edjs.js"></script>
+<script src="js/select.min.js"></script>
+<link rel='stylesheet' href='css/select.css'>
+
+<style>
+
+
+
+</style>
+
+</head>
+
+<body>
+	<div id="sad">
+    <select class="zoption" name="ddProducts" style="width:100%;" multiple  >
+        <option value="1">Product1 : Electronics </option>
+        <option value="2"  selected>Product2 : Sports </option>
+				  <option value="4"  selected>Product3 : Sports </option>
+    </select>
+		<select class="zoption" name="ddProducts1"  >
+				<option value="1">Product1 : Electronics </option>
+				<option value="2"  selected>Product2 : Sports </option>
+		</select>
+  </div>
+
+
+
+	<script type="text/javascript">
+$(document).ready(function() {
+	$('.zoption').Selects({	issearch:true,ajaxUrl:"input.php"  ,placeholder: 'Select an option',data:{q:"sad","fsf":"fghfhf"}})
+})
+
+
+	</script>
+</body>
+</html>
